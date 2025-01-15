@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Chip 样式 -->
+    <style name="Widget.TodoApp.Chip" parent="Widget.MaterialComponents.Chip.Action">
+        <item name="android:textSize">12sp</item>
+        <item name="chipMinHeight">24dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="chipBackgroundColor">?attr/colorPrimary</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+
+    <!-- 文本样式 -->
+    <style name="TextAppearance.TodoApp.Title" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="TextAppearance.TodoApp.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- 卡片样式 -->
+    <style name="Widget.TodoApp.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">2dp</item>
+        <item name="cardCornerRadius">8dp</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+
+    <!-- 输入框样式 -->
+    <style name="Widget.TodoApp.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+    </style>
+
+    <!-- 日期选择器样式 -->
+    <style name="ThemeOverlay.TodoApp.DatePicker" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSurface">@color/surface_light</item>
+    </style>
+
+    <!-- Snackbar 样式 -->
+    <style name="Widget.TodoApp.Snackbar" parent="Widget.MaterialComponents.Snackbar">
+        <item name="android:layout_margin">8dp</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <style name="Widget.TodoApp.Snackbar.TextView" parent="Widget.MaterialComponents.Snackbar.TextView">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources> 

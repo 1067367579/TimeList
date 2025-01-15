@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">时刻清单</string>
+    <string name="app_description">合理规划时间，高效完成任务</string>
+    <string name="add_todo">添加待办事项</string>
+    <string name="hint_title">标题</string>
+    <string name="hint_description">描述</string>
+    <string name="hint_tag">标签</string>
+    <string name="priority_low">低优先级</string>
+    <string name="priority_medium">中优先级</string>
+    <string name="priority_high">高优先级</string>
+    <string name="set_due_date">设置截止日期</string>
+    <string name="save">保存</string>
+    <string name="delete">删除</string>
+    <string name="todo_details">待办事项详情</string>
+    <string name="due_date_format">截止日期：%s</string>
+    <string name="notification_channel_name">待办事项提醒</string>
+    <string name="notification_channel_description">用于提醒待办事项的截止时间</string>
+    <string name="notification_permission_required">需要通知权限</string>
+    <string name="notification_permission_explanation">为了能够在待办事项到期时提醒您，我们需要通知权限。请在设置中启用通知权限。</string>
+    <string name="go_to_settings">去设置</string>
+    <string name="cancel">取消</string>
+    <string name="empty_state_title">还没有待办事项</string>
+    <string name="empty_state_description">点击右下角的加号按钮添加新的待办事项</string>
+    <string name="search">搜索</string>
+    <string name="search_hint">搜索待办事项...</string>
+    <string name="no_results">没有找到匹配的待办事项</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">@color/primary_dark</color>
+    <color name="primary_dark">#0D47A1</color>
+    <color name="accent">@color/accent_dark</color>
+    <color name="text_primary">@color/text_primary_dark</color>
+    <color name="text_secondary">@color/text_secondary_dark</color>
+    <color name="background">@color/background_dark</color>
+    <color name="surface">@color/surface_dark</color>
+    <color name="surface_light">@color/surface_dark</color>
+    <color name="divider">#1FFFFFFF</color>
+    <color name="ripple">#33FFFFFF</color>
+</resources> 

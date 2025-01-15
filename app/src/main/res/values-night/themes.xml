@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.TodoApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- 主色调 -->
+        <item name="colorPrimary">@color/primary_dark</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        
+        <!-- 强调色 -->
+        <item name="colorAccent">@color/accent_dark</item>
+        <item name="colorSecondary">@color/accent_dark</item>
+        <item name="colorSecondaryVariant">@color/accent_dark</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+        
+        <!-- 背景色 -->
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorOnSurface">@color/text_primary_dark</item>
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@android:color/white</item>
+        
+        <!-- 文字颜色 -->
+        <item name="android:textColorPrimary">@color/text_primary_dark</item>
+        <item name="android:textColorSecondary">@color/text_secondary_dark</item>
+        
+        <!-- 状态栏和导航栏 -->
+        <item name="android:statusBarColor">@color/background_dark</item>
+        <item name="android:navigationBarColor">@color/surface_dark</item>
+        
+        <!-- 其他自定义属性 -->
+        <item name="materialCardViewStyle">@style/Widget.TodoApp.CardView</item>
+        <item name="textInputStyle">@style/Widget.TodoApp.TextInputLayout</item>
+        <item name="chipStyle">@style/Widget.TodoApp.Chip</item>
+        <item name="snackbarStyle">@style/Widget.TodoApp.Snackbar</item>
+        <item name="snackbarTextViewStyle">@style/Widget.TodoApp.Snackbar.TextView</item>
+    </style>
+
+    <!-- 添加夜间模式的 Splash 主题 -->
+    <style name="Theme.TodoApp.Splash">
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="android:statusBarColor">@color/background_dark</item>
+        <item name="android:navigationBarColor">@color/background_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

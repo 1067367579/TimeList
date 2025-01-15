@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主题颜色 -->
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="accent">#FF4081</color>
+    <color name="accent_dark">#F50057</color>
+
+    <!-- 基础颜色 -->
+    <color name="text_primary">#DE000000</color>
+    <color name="text_secondary">#99000000</color>
+    <color name="background">#FAFAFA</color>
+    <color name="background_light">#FFFFFF</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="error">#B00020</color>
+
+    <!-- 深色主题颜色 -->
+    <color name="text_primary_dark">#DEFFFFFF</color>
+    <color name="text_secondary_dark">#99FFFFFF</color>
+    <color name="background_dark">#121212</color>
+    <color name="surface_dark">#1E1E1E</color>
+
+    <!-- 优先级颜色 -->
+    <color name="priority_high">#F44336</color>
+    <color name="priority_medium">#FF9800</color>
+    <color name="priority_low">#4CAF50</color>
+
+    <!-- 标签颜色 -->
+    <color name="tag_work">#E91E63</color>
+    <color name="tag_study">#9C27B0</color>
+    <color name="tag_life">#4CAF50</color>
+    <color name="tag_entertainment">#FF9800</color>
+    <color name="tag_other">#607D8B</color>
+
+    <!-- 其他颜色 -->
+    <color name="divider">#1F000000</color>
+    <color name="ripple">#33000000</color>
+    <color name="delete_background">#F44336</color>
+</resources>
