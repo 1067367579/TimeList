@@ -41,7 +41,7 @@
 - JDK 17
 
 ## 项目结构
-app/
+app/<br>
 ├── src/main/<br>
 │ ├── java/com/example/todoapp/<br>
 │ │ ├── data/ // 数据库相关类<br>
