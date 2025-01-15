@@ -42,18 +42,18 @@
 
 ## 项目结构
 app/
-├── src/main/
-│ ├── java/com/example/todoapp/
-│ │ ├── data/ // 数据库相关类
-│ │ ├── fragment/ // 片段类
-│ │ ├── model/ // 数据模型类
-│ │ ├── util/ // 工具类
-│ │ ├── worker/ // WorkManager工作器类
-│ │ ├── MainActivity.java
-│ │ ├── AddTodoActivity.java
-│ │ └── TodoDetailActivity.java
-│ └── res/ // 资源文件
-└── build.gradle // 应用级构建配置
+├── src/main/<br>
+│ ├── java/com/example/todoapp/<br>
+│ │ ├── data/ // 数据库相关类<br>
+│ │ ├── fragment/ // 片段类<br>
+│ │ ├── model/ // 数据模型类<br>
+│ │ ├── util/ // 工具类<br>
+│ │ ├── worker/ // WorkManager工作器类<br>
+│ │ ├── MainActivity.java<br>
+│ │ ├── AddTodoActivity.java<br>
+│ │ └── TodoDetailActivity.java<br>
+│ └── res/ // 资源文件<br>
+└── build.gradle // 应用级构建配置<br>
 
 
 ## 主要功能说明
