@@ -5,6 +5,7 @@ import android.os.Parcelable;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 import androidx.room.ColumnInfo;
+import java.util.Objects;
 
 @Entity(tableName = "todo_table")
 public class Todo implements Parcelable {
@@ -72,6 +73,28 @@ public class Todo implements Parcelable {
     
     public boolean isReminderEnabled() { return reminderEnabled; }
     public void setReminderEnabled(boolean reminderEnabled) { this.reminderEnabled = reminderEnabled; }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Todo todo = (Todo) o;
+        return id == todo.id &&
+                priority == todo.priority &&
+                completed == todo.completed &&
+                createdDate == todo.createdDate &&
+                dueDate == todo.dueDate &&
+                reminderEnabled == todo.reminderEnabled &&
+                Objects.equals(title, todo.title) &&
+                Objects.equals(description, todo.description) &&
+                Objects.equals(tag, todo.tag);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, title, description, tag, priority, completed, 
+                          createdDate, dueDate, reminderEnabled);
+    }
 
     protected Todo(Parcel in) {
         id = in.readInt();
