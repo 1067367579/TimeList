@@ -174,7 +174,7 @@ public class AddTodoActivity extends AppCompatActivity {
             return;
         }
 
-        // 创建Todo对象
+        // 创建待办对象
         Todo todo = new Todo(title, description, tag, selectedPriority);
         todo.setDueDate(selectedDueDate);
         todo.setReminderEnabled(binding.switchReminder.isChecked());
